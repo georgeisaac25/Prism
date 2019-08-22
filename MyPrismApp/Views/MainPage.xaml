@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="MyPrismApp.Views.MainPage">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical">
+        <Label
+            Margin="10,0,0,0"
+            FontSize="20"
+            Text="{Binding Title}"
+            TextColor="#002e5d"
+            VerticalTextAlignment="Center" />
+            <Button
+                Text="Click"
+                Command = "{Binding MyClick}"/>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
